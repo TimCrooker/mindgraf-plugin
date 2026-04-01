@@ -1,0 +1,30 @@
+{
+  "name": "mindgraf",
+  "version": "1.0.0",
+  "description": "MindGraf knowledge graph superpowers. Full brain CLI access, workflow skills for PM, fitness, comms, journaling, research, and quick capture — all wired to a personal knowledge graph.",
+  "author": {
+    "name": "Tim Crooker",
+    "url": "https://github.com/TimCrooker"
+  },
+  "repository": "https://github.com/TimCrooker/secondbrain-claude",
+  "license": "MIT",
+  "keywords": [
+    "knowledge-graph",
+    "second-brain",
+    "mindgraf",
+    "project-management",
+    "fitness",
+    "hevy",
+    "journal",
+    "research",
+    "personal-assistant"
+  ],
+  "userConfig": {
+    "mindgraf_path": {
+      "title": "MindGraf Repo Path",
+      "description": "Absolute path to the secondbrain-claude repository on the host machine (e.g. /Users/you/secondbrain-claude)",
+      "type": "directory",
+      "sensitive": false
+    }
+  }
+}
