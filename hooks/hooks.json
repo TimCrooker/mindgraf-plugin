@@ -2,10 +2,12 @@
   "hooks": {
     "SessionStart": [
       {
+        "matcher": "startup|clear|compact|resume",
         "hooks": [
           {
-            "type": "prompt",
-            "prompt": "MindGraf brain is available. On substantive queries about people, projects, decisions, tools, or topics — search the brain first using the brain-cli skill before responding. The knowledge graph is your memory. Use it proactively."
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/inject-context.sh\"",
+            "async": false
           }
         ]
       }

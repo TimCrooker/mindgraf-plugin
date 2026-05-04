@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cat <<'EOF'
+MindGraf brain is available. On substantive queries about people, projects, decisions, tools, or topics — search the brain first using the brain-cli skill before responding. The knowledge graph is your memory. Use it proactively.
+EOF
